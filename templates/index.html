@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FastAPI Demo</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>FastAPI-esimerkki</h1>
+
+    <form action="/suorita" method="post">
+        <button type="submit">
+            Suorita Python-koodi
+        </button>
+    </form>
+
+    <div class="result">
+        {{ tulos }}
+    </div>
+
+</div>
+
+</body>
+</html>
